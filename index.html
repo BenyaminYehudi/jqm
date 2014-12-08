@@ -17,7 +17,11 @@
 
 	<div data-role="content">	
 		Page 1<br/>
-		<a data-transition="slide" href="#page2">Goto page 2</a>
+		<ul>
+			<li><a data-transition="slide" href="#page2">Goto page 2</a></li>
+			<li><a data-transition="slide" href="#page3">Goto page 3</a></li>
+			<li><a data-transition="slide" href="#page4">Goto page 4</a></li>
+		</ul>
 	</div>
 
 </div>
@@ -31,6 +35,34 @@
 
 	<div data-role="content">	
 		Page 2<br/>
+		<a data-transition="slide" href="#home">Goto page 1</a>
+	</div>
+
+</div>
+
+<div data-role="page" id="page3">
+
+	<div data-role="header">
+		<a href="#home" data-transition="slide" class="ui-btn-left">Back</a>
+		<h1>My Title</h1>
+	</div>
+
+	<div data-role="content">	
+		Page 3<br/>
+		<a data-transition="slide" href="#home">Goto page 1</a>
+	</div>
+
+</div>
+
+<div data-role="page" id="page4">
+
+	<div data-role="header">
+		<a href="#home" data-transition="slide" class="ui-btn-left">Back</a>
+		<h1>My Title</h1>
+	</div>
+
+	<div data-role="content">	
+		Page 4<br/>
 		<a data-transition="slide" href="#home">Goto page 1</a>
 	</div>
 
